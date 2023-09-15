@@ -1,13 +1,13 @@
 import SubHeading from './SubHeading/SubHeading';
-import Newsletter from './Footer/Newsletter';
 import FooterOverlay from './Footer/FooterOverlay';
-import MenuItem from './Menuitem/MenuItem';
+import Newslettre from './Footer/Newsletter';
 import Navbar from './Navbar/Navbar';
+import MenuItem from './Menuitem/Menuitem';
 
-export {
-  SubHeading,
-  Newsletter,
-  FooterOverlay,
-  MenuItem,
-  Navbar,
+export{
+   SubHeading,
+   FooterOverlay,
+   Navbar,
+   Newslettre,
+   MenuItem 
 };
