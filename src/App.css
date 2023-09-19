@@ -16,12 +16,23 @@
     background-attachment: fixed;
 }
 
-.app__warpper{
+
+
+
+
+
+ .app__warpper{
     display: flex;
     justify-content: space-between;
     align-items: center;
     min-height: 100vh;
-}
+} 
+
+
+
+
+
+
 
 .app__warpper_info{
     flex: 1;
@@ -64,16 +75,17 @@
       cursor: pointer;
   }
 
-  .p__cormorant {
+   .p__cormorant {
     font-family: var(--font-base);
     color: var(--color-white);
     font-weight: 700;
     letter-spacing: 0.04em;
     text-transform: capitalize;
-    font-feature-settings: 'tnum' on, 'lnum' on;
+   
+     font-feature-settings: 'tnum' on, 'lnum' on; 
     line-height: 29.9px;
     font-size: 23px;
-  }
+  } 
 
   .p__opensans {
     font-family: var(--font-alt);
