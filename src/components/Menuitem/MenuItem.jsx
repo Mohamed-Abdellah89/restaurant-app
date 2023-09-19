@@ -1,9 +1,9 @@
 import React from 'react'
-import './Menuitem.css';
+import './Menuitem.css'
 const Menuitem = () => {
   return (
     <div>
-      Menuitem
+        Menuitem
     </div>
   )
 }
