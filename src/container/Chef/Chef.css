@@ -1,0 +1,150 @@
+.app__chef-content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.app__chef-content_quote{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    margin-bottom: .2rem;
+}
+
+
+
+.app__chef-content_quote img{
+    width: 47px;
+    height: 40px;
+    margin-right: 1rem;
+    margin-bottom: .2rem;
+}
+
+.app__chef-sign{
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.app__chef-sign p:first-child {
+    font-family: var(--font-base);
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 41.6px;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: var(--color-golden);
+}
+
+.app__chef-sign img{
+    width: 250px;
+    margin-top: 3rem;
+}
+
+@media screen and (min-width: 2000px) {
+    .app__chef-sign img {
+        width: 370px;
+    }
+}
+
+@media screen and (max-width: 1200px){
+    .app__chef-img img{
+        max-width: 100%;
+    }
+    .app__chef-info h1{
+        font-size: 40px;
+        line-height: 50px;
+    }
+    .app__chef-content{
+        margin-top: 1rem;
+    }
+    .app__chef-content p{
+        font-size: 12px;
+        line-height: 25px;
+        font-weight: bold;
+    }
+
+    .app__chef-content_quote img{
+        width: 35px;
+        height: 30px;
+        margin-bottom: .5rem;
+    }
+
+    .app__chef-sign{
+        margin-top: 1rem;
+    }
+
+    .app__chef-sign img{
+        width: 200px;
+        margin-top: 2rem;
+    }
+
+
+
+
+}
+
+@media screen and (max-width: 1000px){
+
+    .app__chef{
+        flex-direction: column;
+    }
+
+    .app__chef-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .app__chef-info{
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .app__chef-content_quote{
+        justify-content: center;
+
+    }
+
+    .app__chef-sign img{
+        width: 180px;
+        margin-top: 1rem;
+    }
+
+}
+
+
+
+
+
+@media screen and (max-width: 560px) {
+    .app__chef-sign img {
+        width: 40%;
+    }
+
+    .app__chef-content{
+        margin-top: 0;
+    }
+    .app__chef-content p{
+       font-size: 10px;
+       line-height: 15px;
+       margin-top: .5rem;
+    }
+    .app__chef-content_quote p{
+        text-align: left;
+    }
+
+    .app__chef-content_quote {
+        margin-bottom: 0;
+        align-items: center;
+    }
+    .app__chef-content_quote img{
+        width: 5%;
+        margin-top: 3px;
+        margin-right: .2rem;
+    }
+    
+}
