@@ -62,7 +62,7 @@ max-width: 600px;
 
     .app__warpper{
         flex-wrap: wrap;
-        margin-top: 2rem;
+        margin: 0;
     }
 
     .app__warpper_info h1{
@@ -133,7 +133,8 @@ max-width: 400px;
 
     .app__warpper{
         flex-wrap: wrap;
-        margin-top: 2rem;
+        /* margin-top: 2rem; */
+        margin: 0;
     }
 
     .app__warpper_info h1{
